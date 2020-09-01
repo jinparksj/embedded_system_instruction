@@ -14,10 +14,13 @@
         3) Wire crimper
         4) Female or male crimp contact pin
         5) Shielded or unshielded cables
+    
     ![wiring1](img/1.jpg)
 
     - need multi-meter for checking wires, setting continuity check mode like below.
+    
     ![wiring1](img/2.jpg)
+    
     - have three types of cables
         1) igus chainflex CF240-PUR-03-04, 4 x 22 AWG
         https://www.igus.com/product/1072
@@ -31,14 +34,23 @@
 - PROCEDURE 
     - How to clamp wires
         - Strip shield of cable with the stripper like below.
+        
         ![wiring1](img/3.jpg)
+        
         - Strip wires with wire stripper. Since we have 20AWG and 22AWG cables, you should strip the insulation, matching with wire size.
+        
         ![wiring1](img/4.jpg)
+        
         - Place one of wires in crimp contact pin like below. Crimp contact pin has two cripming points. Insulation should be placed at the left crimping point and metal wire should be placed at the right crimping point.
+        
         ![wiring1](img/5.jpg)
+        
         - Clamp two crimping points and check whether it is properly clamped by pulling  back the wire.
+        
         ![wiring1](img/6.jpg)
+        
         - Insert male or female crimp pin into connector all the way, latching the crimp pin to small square hall at the connector like below.
+        
         ![wiring1](img/7.jpg)
         
     - How to wire motors and syringe pumps correctly
@@ -59,6 +71,7 @@
     - Syringe pump pin configuration
       
     Based on pin configuration in datasheet, you should wire ‘Green – A1 in main board’,  ‘Blue – A2 in main board’, ‘Red – B1 in main board’, and ‘Black – B2 in main board’.
+    
     ![wiring1](img/10.png)
     
     - Motor pin configuration
@@ -82,15 +95,19 @@
     - We have been troubled with wiring physical and electrical issues. For example, wire was come off physically from connector or wire was broken or cracked. Below photos are the examples of the issue.
 
         - Red wire came off
+        
         ![wiring1](img/13.jpg)
         
         - Red wire was cut
+        
         ![wiring1](img/14.jpg)
         
         - Black and blue wires came off
+        
         ![wiring1](img/15.jpg)
     
         - White Insulation was cracked 
+        
         ![wiring1](img/16.jpg)
 
     - Physical Check Procedure
@@ -98,15 +115,19 @@
         - Inspect visually whether there are cracked or broken wires like above photos. 
         
         - Pull back each wire to confirm the latch of a crimp contact pin is properly placed. For example, below photo shows that white wire is pulled back.
+		
 		![wiring1](img/17.png)
+	    
 	    - Check whether cables are correctly connected, matching the components’ wiring  	pin order in the components’ datasheet and pin order in main board. You can refer 	to above section of ‘How to wire motors and syringe pumps correctly’.
 	    	
 	- Electrical Check Procedure
 
         - Check continuity between each end of wires with multi-meter. If it is not broken 	or cracked, multi-meter should beep. For example, below photo shows checking 	continuity of white wire.
+        
         ![wiring1](img/18.png)
 		
 		- If the wiring is fine eletrically and physically, in case of old version of main 	board, you should check the current regulation. New version main board can set t	he current regulation of each motor driver based on software. Old version of main 	board should be set by variable resistor like below.
+        
         ![wiring1](img/19.png)
 
     
