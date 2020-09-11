@@ -9,7 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f4f66a0-b390-474a-9970-3e5c9498e0fa" name="Default Changelist" comment="" />
+    <list default="true" id="0f4f66a0-b390-474a-9970-3e5c9498e0fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/adc_dac_instruction/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +26,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gt2pFxbEHxtq1y6HZ55FtX3wIv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -51,6 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598919748433</updated>
       <workItem from="1598919750219" duration="1550000" />
+      <workItem from="1599764274838" duration="4657000" />
     </task>
     <servers />
   </component>
@@ -62,7 +69,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
